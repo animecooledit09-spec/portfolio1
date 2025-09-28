@@ -1,0 +1,38 @@
+/* General body styles */
+body {
+  text-align: center;
+  background: #1a1a1a;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+/* Heading styles */
+h1 {
+  margin: 20px 0;
+  color: #76ff03;
+  text-shadow: 2px 2px 4px #000;
+}
+
+/* Score display */
+#score {
+  font-size: 22px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* Canvas styles */
+canvas {
+  background: #111;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #76ff03;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #76ff03;
+}
